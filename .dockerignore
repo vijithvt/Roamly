@@ -1,0 +1,22 @@
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.env.*
+!.env.example
+
+# Version control / editor / misc project cruft - never needed inside the image
+.git/
+.gitignore
+.dockerignore
+__pycache__/
+*.pyc
+.pytest_cache/
+excalidraw_files/
+mcp_client_test.py
+test.py
+README.md
